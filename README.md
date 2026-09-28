@@ -17,7 +17,7 @@ A `.gitignore` file is a plain text file in your repository that tells Git which
 ## Wiki
 
 ### General
-- [`.env` files](./docs/env.md)
+- [.env files](./docs/env.md)
 
 ## Templates
 - [Base](./templates/base.gitignore)
@@ -28,4 +28,4 @@ Contributions are welcome. Please open an issue or pull request and include a sh
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+[MIT](./LICENSE).

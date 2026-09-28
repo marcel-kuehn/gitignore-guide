@@ -6,9 +6,9 @@ Applications load these values at startup, typically through a library such as [
 
 ## Variations
 
-Many projects use variations of the `.env` file, such as `.env.local`, `.env.development`, `.env.test`, and `.env.production`, to keep separate settings for different environments or for personal overrides.
+Many projects use variations of the `.env` file, such as `.env.local`, `.env.development`, `.env.test` and `.env.production`, to keep separate settings for different environments or for personal overrides.
 
-## Should it be ignored?
+## Should it be included in the .gitignore?
 
 Yes. Because `.env` files often contain secrets, they should not be committed to version control. The same applies to their variants, which usually contain secrets or machine-specific values too.
 
