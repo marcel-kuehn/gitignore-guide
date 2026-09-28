@@ -1,6 +1,6 @@
 # macOS
 
-This page collects macOS specific files that belong in a `.gitignore`. 
+This page collects macOS specific files and folders that belong in a `.gitignore`. 
 
 ## Files
 
