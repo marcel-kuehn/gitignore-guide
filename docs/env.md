@@ -20,7 +20,7 @@ Some frameworks, such as Next.js and Vite, are designed to commit `.env`, `.env.
 
 ## Snippet
 
-```
+```gitignore
 # Environments and Secrets
 .env
 .env.*
