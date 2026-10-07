@@ -16,3 +16,4 @@ $RECYCLE.BIN/
 # Linux
 .directory
 .Trash-*
+.fuse_hidden*
