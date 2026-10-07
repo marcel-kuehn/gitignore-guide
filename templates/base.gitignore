@@ -19,6 +19,10 @@ $RECYCLE.BIN/
 .fuse_hidden*
 .nfs*
 
+# Temporary Files
+*.tmp
+*.temp
+
 # Claude Code
 .claude/settings.local.json
 CLAUDE.local.md
