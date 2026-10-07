@@ -1,0 +1,43 @@
+# Environments and Secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.DocumentRevisions-V100
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+.fuse_hidden*
+.nfs*
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Git
+*.orig
+*.rej
+*_BACKUP_[0-9]*
+*_BASE_[0-9]*
+*_LOCAL_[0-9]*
+*_REMOTE_[0-9]*
+
+# Claude Code
+.claude/settings.local.json
+CLAUDE.local.md
+.claude/agent-memory-local/
+.claude/worktrees/
