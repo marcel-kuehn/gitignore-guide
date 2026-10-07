@@ -23,6 +23,8 @@ A `.gitignore` file is a plain text file in your repository that tells Git which
 - [macOS](./docs/macos/index.md)
 - [Windows](./docs/windows/index.md)
 - [Linux](./docs/linux/index.md)
+- [Temporary files](./docs/temp-files.md)
+- [Git](./docs/git/index.md)
 - [Claude Code](./docs/claude/index.md)
 
 ## Contributing

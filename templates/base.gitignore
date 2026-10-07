@@ -17,6 +17,19 @@ $RECYCLE.BIN/
 .directory
 .Trash-*
 .fuse_hidden*
+.nfs*
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Git
+*.orig
+*.rej
+*_BACKUP_[0-9]*
+*_BASE_[0-9]*
+*_LOCAL_[0-9]*
+*_REMOTE_[0-9]*
 
 # Claude Code
 .claude/settings.local.json
