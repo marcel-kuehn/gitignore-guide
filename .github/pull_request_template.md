@@ -14,4 +14,5 @@ For new entries:
 
 For every pull request:
 
+- [ ] Markdown formatted with `npx prettier@3.9.9 --write "**/*.md"`
 - [ ] Commit messages follow [Conventional Commits](https://www.conventionalcommits.org)

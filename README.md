@@ -9,16 +9,19 @@ Just as important, it covers what you should **not** put in your `.gitignore`.
 A `.gitignore` file is a plain text file in your repository that tells Git which files and folders it should ignore, meaning Git won't track them, show them as untracked changes or include them in commits. Read more about it in the [official docs](https://git-scm.com/docs/gitignore).
 
 ## How to use
+
 1. Copy the [base template](./templates/base.gitignore) into your project as `.gitignore`.
 2. Append the templates that match your project type.
 3. Check the wiki to understand each entry and adjust it to your project.
 
 ## Templates
+
 - [Base](./templates/base.gitignore)
 
 ## Wiki
 
 ### General
+
 - [.env files](./docs/env.md)
 - [macOS](./docs/macos/index.md)
 - [Windows](./docs/windows/index.md)
