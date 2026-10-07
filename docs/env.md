@@ -26,4 +26,3 @@ Some frameworks, such as Next.js and Vite, are designed to commit `.env`, `.env.
 .env.*
 !.env.example
 ```
-​

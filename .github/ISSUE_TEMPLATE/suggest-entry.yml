@@ -1,0 +1,38 @@
+name: Suggest an entry
+description: Suggest a file or folder that should be added to a template.
+title: "Add "
+labels: ["new entry"]
+body:
+  - type: input
+    id: pattern
+    attributes:
+      label: Pattern
+      description: The pattern as it would appear in the template.
+      placeholder: ".DS_Store"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is it?
+      description: What the file or folder is, what creates it and where it shows up.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be ignored?
+      description: For the base template, it has to be safe to ignore in practically every project.
+    validations:
+      required: true
+  - type: input
+    id: group
+    attributes:
+      label: Group and template
+      description: Which group and template it belongs to, if you know.
+      placeholder: "macOS, base template"
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links to documentation or other references.

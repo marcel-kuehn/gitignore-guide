@@ -33,20 +33,28 @@ Some rules:
 - Add `## Variations` or `### Exceptions` only when they add something, for example variants of a file name or frameworks that handle a file differently.
 - Each page stands on its own: no links to other entry pages and no comparisons with other entries.
 - File names are lowercase and hyphenated and describe the entry, for example `ds-store.md` or `linux-trash.md`.
-- Pages end with a trailing newline.
 
 ## Templates
 
 - Entries are grouped under a comment heading such as `# macOS`, with a blank line between groups.
 - The order inside a group matches the order on the group's wiki page.
 - General groups come first, tool-specific groups last.
-- Template files have no trailing newline.
 
 The base template only contains entries that are safe to ignore in practically every project, regardless of language or tooling: secrets, operating system files, temporary files and leftovers from Git and common tools.
 
 ## Writing style
 
 Write the way a colleague would explain it: short sentences, concrete facts, no filler. No AI slop, please. Phrases like "In today's world" or "it's important to note" will be sent back.
+
+## Formatting
+
+Markdown files are formatted with [Prettier](https://prettier.io). Before you open a pull request, run:
+
+```sh
+npx prettier@3.9.9 --write "**/*.md"
+```
+
+A check on every pull request fails if a file isn't formatted.
 
 ## Commits
 
