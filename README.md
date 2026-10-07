@@ -29,7 +29,7 @@ A `.gitignore` file is a plain text file in your repository that tells Git which
 
 ## Contributing
 
-Contributions are welcome. Please open an issue or pull request, include a short explanation for any entry you add and make sure to also extend the wiki. No AI slop please!
+Contributions are welcome. Please read the [contributing guide](./CONTRIBUTING.md) before opening an issue or pull request. No AI slop please!
 
 ## License
 
