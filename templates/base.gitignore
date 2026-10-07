@@ -17,6 +17,7 @@ $RECYCLE.BIN/
 .directory
 .Trash-*
 .fuse_hidden*
+.nfs*
 
 # Claude Code
 .claude/settings.local.json
