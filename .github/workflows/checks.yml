@@ -1,0 +1,44 @@
+name: Checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  gitignore-sync:
+    name: .gitignore matches base template
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Compare files
+        run: |
+          if ! cmp -s .gitignore templates/base.gitignore; then
+            echo "::error::.gitignore differs from templates/base.gitignore. Copy the template over the root .gitignore."
+            diff templates/base.gitignore .gitignore
+            exit 1
+          fi
+
+  prettier:
+    name: Markdown formatting
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Run Prettier
+        run: npx --yes prettier@3.9.9 --check "**/*.md"
+
+  links:
+    name: Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --exclude-path docs/_templates "**/*.md"
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
