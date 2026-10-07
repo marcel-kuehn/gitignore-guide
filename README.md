@@ -22,6 +22,7 @@ A `.gitignore` file is a plain text file in your repository that tells Git which
 - [.env files](./docs/env.md)
 - [macOS](./docs/macos.md)
 - [Windows](./docs/windows.md)
+- [Linux](./docs/linux.md)
 
 ## Contributing
 
