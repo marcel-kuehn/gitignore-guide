@@ -17,3 +17,9 @@ $RECYCLE.BIN/
 .directory
 .Trash-*
 .fuse_hidden*
+
+# Claude Code
+.claude/settings.local.json
+CLAUDE.local.md
+.claude/agent-memory-local/
+.claude/worktrees/
