@@ -1,0 +1,24 @@
+name: Report a mistake
+description: Report a wrong fact, a broken pattern or a typo.
+labels: ["mistake"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where is it?
+      description: The wiki page or template, ideally with a link.
+      placeholder: "docs/macos/ds-store.md"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: What the page or template says, and what is correct instead.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Links that back up the correction.
