@@ -6,6 +6,7 @@ This page collects macOS specific files and folders that belong in a `.gitignore
 
 - [.DS_Store](./ds-store.md)
 - [.AppleDouble](./apple-double.md)
+- [._* files](./dot-underscore.md)
 
 ## Snippet
 
@@ -13,4 +14,5 @@ This page collects macOS specific files and folders that belong in a `.gitignore
 # macOS
 .DS_Store
 .AppleDouble
+._*
 ```
