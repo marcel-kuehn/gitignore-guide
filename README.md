@@ -7,15 +7,6 @@ A practical reference for writing `.gitignore` files. This repository combines a
 
 Other template collections give you the patterns. This one also explains every entry, so you know what you're ignoring and can adjust it to your project. Just as important, it covers what you should **not** put in your `.gitignore`.
 
-## Contents
-
-- [What is a `.gitignore`?](#what-is-a-gitignore)
-- [How to use](#how-to-use)
-- [Templates](#templates)
-- [Wiki](#wiki)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## What is a `.gitignore`?
 
 A `.gitignore` file is a plain text file in your repository that tells Git which files and folders it should ignore, meaning Git won't track them, show them as untracked changes or include them in commits. Read more about it in the [official docs](https://git-scm.com/docs/gitignore).
@@ -45,15 +36,13 @@ A `.gitignore` file is a plain text file in your repository that tells Git which
 
 ### General
 
-| Section                                 | Covers                                                             |
-| --------------------------------------- | ------------------------------------------------------------------ |
-| [.env files](./docs/env.md)             | Environment variables and secrets                                  |
-| [macOS](./docs/macos/index.md)          | Finder metadata, resource forks, Spotlight index and drive folders |
-| [Windows](./docs/windows/index.md)      | Thumbnail caches, folder settings and the recycle bin              |
-| [Linux](./docs/linux/index.md)          | KDE folder settings, trash folders, FUSE and NFS leftovers         |
-| [Temporary files](./docs/temp-files.md) | `*.tmp` and `*.temp` files                                         |
-| [Git](./docs/git/index.md)              | Merge and patch leftovers, mergetool temp files                    |
-| [Claude Code](./docs/claude/index.md)   | Personal settings and instructions, subagent memory, worktrees     |
+- [.env files](./docs/env.md)
+- [macOS](./docs/macos/index.md)
+- [Windows](./docs/windows/index.md)
+- [Linux](./docs/linux/index.md)
+- [Temporary files](./docs/temp-files.md)
+- [Git](./docs/git/index.md)
+- [Claude Code](./docs/claude/index.md)
 
 ## Contributing
 
