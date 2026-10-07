@@ -6,6 +6,7 @@ This page collects Windows specific files and folders that belong in a `.gitigno
 
 - [Thumbs.db](./thumbs-db.md)
 - [desktop.ini](./desktop-ini.md)
+- [$RECYCLE.BIN/](./recycle-bin.md)
 
 ## Snippet
 
@@ -13,4 +14,5 @@ This page collects Windows specific files and folders that belong in a `.gitigno
 # Windows
 Thumbs.db
 desktop.ini
+$RECYCLE.BIN/
 ```
